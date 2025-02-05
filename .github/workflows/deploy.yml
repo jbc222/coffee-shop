@@ -3,11 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main # 或者是你的默认分支名称
+      - master # 改为你的默认分支名称
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 添加写入权限
     steps:
       - uses: actions/checkout@v3
       
