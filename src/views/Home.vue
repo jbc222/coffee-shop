@@ -109,7 +109,7 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import {
-  CoffeeIcon,
+  BeakerIcon,
   UserGroupIcon,
   HeartIcon,
 } from '@heroicons/vue/24/outline'
@@ -140,7 +140,7 @@ const slides = [
 
 const features = [
   {
-    icon: CoffeeIcon,
+    icon: BeakerIcon,
     title: 'Premium Coffee',
     description: 'We source the finest coffee beans from around the world.',
   },
