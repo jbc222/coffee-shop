@@ -277,7 +277,7 @@ const upcomingEvents = [
     date: '2024-03-25',
     time: '15:00 - 17:00',
     price: '¥4,200',
-    image: 'https://images.unsplash.com/photo-1534415378365-1e2ed59a7e83?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+    image: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     category: 'Workshop',
   },
   {
