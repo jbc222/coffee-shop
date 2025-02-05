@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md transition-colors duration-200;
+  }
+  .btn-primary {
+    @apply bg-coffee-600 text-white hover:bg-coffee-700;
+  }
+  .btn-secondary {
+    @apply bg-coffee-100 text-coffee-800 hover:bg-coffee-200;
+  }
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+}
+
+/* Base Styles */
+body {
+  @apply bg-coffee-50 text-coffee-900;
+}
+
+#app {
+  @apply min-h-screen flex flex-col;
+}
+
+/* Transitions */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
